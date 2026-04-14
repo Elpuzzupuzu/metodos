@@ -6,7 +6,7 @@ const app = express();
 // ✅ Configuración CORS
 app.use(
   cors({
-    origin: "http://localhost:5174", // puerto de Vite
+    origin: "http://localhost:5173", // puerto de Vite
     methods: ["GET", "POST"],
   })
 );
